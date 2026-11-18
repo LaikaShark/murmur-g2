@@ -1,0 +1,23 @@
+{
+  "package_id": "com.hyperobject.murmur",
+  "edition": "202601",
+  "name": "Murmur",
+  "version": "1.0.2",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    {
+      "name": "network",
+      "desc": "Signs in to Discord and receives messages from the channels you choose to watch.",
+      "whitelist": [
+        "https://discord.com",
+        "wss://gateway.discord.gg",
+        "wss://*.discord.gg"
+      ]
+    }
+  ],
+  "supported_languages": [
+    "en"
+  ]
+}
